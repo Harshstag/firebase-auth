@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container label {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: rgb(80, 79, 79);
+}
+.container input {
+  border-radius: 5px;
+  border: 2px solid;
+  outline: none;
+  padding: 10px 10px #eee;
+  color: rgb(3, 5, 14);
+  height: 30px;
+  padding: 4px;
+  padding-left: 10px;
+  background-color: #dadbdc;
+  border-color: rgb(192, 189, 213);
+}
+.container input:hover {
+  border-color: #545252;
+}
+.container input:focus {
+  border-color: #5665ea;
+}
